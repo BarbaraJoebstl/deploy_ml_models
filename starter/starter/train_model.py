@@ -1,10 +1,9 @@
 # Script to train machine learning model.
 
 # necessary imports for the starter code.
-from sklearn.model_selection import train_test_split, KFold
+from sklearn.model_selection import KFold
 import pandas as pd
 from sklearn.metrics import accuracy_score
-import numpy as np
 from ml.data import process_data
 from ml.model import train_model, compute_model_metrics, inference
 import joblib

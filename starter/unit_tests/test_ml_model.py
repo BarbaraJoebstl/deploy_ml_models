@@ -1,5 +1,4 @@
 from unittest.mock import MagicMock, patch
-import pytest
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from starter.starter.ml.model import compute_model_metrics, train_model, inference
