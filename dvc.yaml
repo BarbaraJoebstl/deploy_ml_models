@@ -1,0 +1,7 @@
+stages:
+  train:
+    cmd: PYTHONPATH=. python starter/starter/train_model.py
+    outs:
+      - starter/model/model.joblib
+      - starter/model/encoder.joblib
+      - starter/model/label_binarizer.joblib

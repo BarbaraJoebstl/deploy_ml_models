@@ -1,1 +1,4 @@
 
+/model.joblib
+/encoder.joblib
+/label_binarizer.joblib

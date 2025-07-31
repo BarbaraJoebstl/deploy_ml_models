@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: PYTHONPATH=. python starter/starter/train_model.py
+    outs:
+    - path: starter/model/encoder.joblib
+      md5: 2b4f3763c2dd64fa1218e9ccbef0a726
+      size: 4171
+    - path: starter/model/label_binarizer.joblib
+      md5: 89413590ed45aec9255269dec320608b
+      size: 417
+    - path: starter/model/model.joblib
+      md5: 7a103a4e904110ac0a6aa01cc03e49a6
+      size: 73417278
