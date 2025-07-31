@@ -1,3 +1,5 @@
+Starter code for this project can be found here(opens in a new tab). Please download to your own machine first in order to begin the project.
+
 Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or 2 is recommended.
 
 # Environment Set up
